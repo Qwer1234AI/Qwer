@@ -1,6 +1,4 @@
-import subprocess
 
-subprocess.check_call(["pip", "install", "--upgrade", "transformers"])
 import telebot
 from PIL import Image
 from io import BytesIO
