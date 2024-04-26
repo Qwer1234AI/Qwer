@@ -2,8 +2,8 @@
 import telebot
 from PIL import Image
 from io import BytesIO
-from transformers import DetrImageProcessor, DetrForObjectDetection
 import torch
+from transformers import DetrImageProcessor, DetrForObjectDetection
 
 # Инициализация модели и процессора
 processor = DetrImageProcessor.from_pretrained("facebook/detr-resnet-50", revision="no_timm")
