@@ -1,4 +1,5 @@
-!pip install python-telegram-bot transformers torch pillow requests
-!pip uninstall python-telegram-bot -y
-!pip install python-telegram-bot --upgrade
-!pip install pyTelegramBotAPI
+python-telegram-bot==13.7
+transformers==4.11.3
+torch==1.10.0
+Pillow==8.4.0
+requests==2.26.0
